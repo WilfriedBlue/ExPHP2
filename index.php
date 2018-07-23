@@ -41,16 +41,16 @@ echo $eas;
 $age = 29;
 $genre = "Homme";
 
-if ( $age >= 18 && $genre = true) {
+if ( $age >= 18 && $genre == "Homme") {
     echo "Vous êtes un homme et vous êtes majeur<br><br>";
 }
-else if ( $age >= 18 && $genre = false) {
+else if ( $age >= 18 && $genre != "Homme") {
     echo "Vous êtes une femme et vous êtes majeur<br><br>";
 }
-else if ( $age <= 18 && $genre = true) {
+else if ( $age <= 18 && $genre == "Homme") {
     echo "Vous êtes un homme et vous êtes mineur<br><br>";
 }
-else if ( $age <= 18 && $genre = false) {
+else if ( $age <= 18 && $genre != "Homme") {
     echo "Vous êtes une femme et vous êtes mineur<br><br>";
 }
 
